@@ -1,0 +1,75 @@
+.cartItemsContainer {
+  margin-top: 200px;
+}
+.cartItem {
+  border: 1px solid #f8bb46;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imageCart {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.infoColumn {
+  flex-grow: 1;
+}
+
+.ingredients {
+  font-size: 16px;
+}
+
+.totalColumn {
+  text-align: right;
+}
+
+.totalPrice {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.addColumn {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.minus,
+.plus {
+  width: 20px;
+  height: 20px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input {
+  height: 34px;
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.emptyImage {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+

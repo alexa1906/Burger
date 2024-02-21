@@ -1,0 +1,246 @@
+.createBg {
+  background-image: url("../images/craft-burger-bg.jpeg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  background-color: transparent;
+}
+
+.burger-choose {
+  margin-left: 30px;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  width: 320px;
+}
+
+.burger-choose .label {
+  color: #f8bb46;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: left;
+  padding: 14px;
+}
+
+.select-val {
+  background-color: transparent;
+  border: 3px solid #f8bb46;
+  color: #f8bb46;
+  font-weight: 600;
+  width: 270px;
+  height: 50px;
+  font-size: 16px;
+  height: 45px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 30px 0 20px;
+  text-transform: uppercase;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../images/icons8-down-50.png") no-repeat right bottom;
+  background-size: 15px;
+  background-position: 235px;
+  line-height: 1.2;
+}
+.add-item {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0;
+  margin-left: 50px;
+}
+.plus-icon {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 21px;
+  border: 2px solid #f8bb46;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: #f8bb46;
+  font-family: Avenir-Bold;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.totalPrice {
+  margin-top: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  max-width: 320px;
+}
+
+.totalPrice > div {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 21px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-down:hover {
+  opacity: 0.7;
+}
+
+.scroll-down img {
+  width: 38px;
+  height: 38px;
+  display: block;
+  margin: auto;
+  background-color: transparent;
+}
+
+.burger-row {
+  position: relative;
+  padding: 0 250px;
+  background-color: transparent;
+}
+
+.image-description-left {
+  left: 0;
+  top: 35px;
+  text-align: right;
+  font-size: 35px;
+  position: absolute;
+  font-style: italic;
+  color: #f8bb46;
+  width: 150px;
+  text-transform: lowercase;
+}
+.image-description-right {
+  right: 80px;
+  top: 10px;
+  text-align: right;
+  font-size: 35px;
+  position: absolute;
+  font-style: italic;
+  color: #f8bb46;
+  width: 0px;
+  text-transform: lowercase;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 40px;
+  left: 170px;
+  margin: auto;
+  width: 60px;
+  height: 30px;
+}
+.arrow-right {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  margin: auto;
+  width: 60px;
+  height: 30px;
+}
+
+.personal-name {
+  margin-top: 30px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  height: 45px;
+  width: 260px;
+  border: 2px solid #f8bb46;
+}
+
+.burger-name {
+  margin-left: 30px;
+}
+
+.ingredient {
+  animation: jello 1s;
+}
+
+.x-icon {
+  margin-left: 15px;
+}
+
+@keyframes jello {
+  11%,
+  0%,
+  100% {
+    transform: none;
+  }
+  22% {
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+  33% {
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+  44% {
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+  55% {
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+  66% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+  77% {
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+  88% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+.buton-unu {
+  display: block;
+  width: 270px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #f8bb46;
+  margin-top: 15px;
+  padding: 0 10px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+.totalAndButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
